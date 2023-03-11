@@ -1,0 +1,14 @@
+[
+  {
+    "name": "main",
+    "tittle": "Financials",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "tableData":{
+      "headers": ["Concept","Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "operationCost":["Operation Cost", 6751,4878,1169,9905,7573,4192,8333,3813,2130,2038,3006,5489],
+      "adminCost": ["Admin Cost",1964,1018,1966,1514,1618,1624,1750,1588,1086,1452,1663,1974],
+      "incomes": ["Incomes", 11704,11753,14622,12957,12296,14404,12618,10003,10879,8915,9338,10260]
+    }
+  }
+
+]

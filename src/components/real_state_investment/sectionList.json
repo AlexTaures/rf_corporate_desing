@@ -1,0 +1,17 @@
+[
+  {
+    "name": "main-section",
+    "tittle": "Real State Investment Tittle",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "animation": "down",
+    "image": "realState",
+    "buttons": [{"name": "RF Properties", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium."}]
+  },
+  {
+    "name": "rf_properties-section",
+    "tittle": "RF Properties",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "animation": "left",
+    "image": "rfProperties"
+  }
+]

@@ -1,24 +1,77 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import NavMenu from './components/NavMenu';
+import { useContext } from 'react';
+import {DataContext} from  "./context/Datacontext.js"
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import About from './components/about/About'
+import AssetManagement from './components/assetManagement/AssetManagement';
+import Construction from './components/construction/Construction';
+import RFDevelopment from './components/rf_development/RFDevelopment';
+import Home from './components/home/Home';
+import RealStateInvestment from './components/real_state_investment/RealStateInvestment';
+import Financial from './components/financial/Financial';
+import Footer from './components/Footer';
 
 function App() {
+  const {menu, setMenu, menuText, setMenuText, color, setColor, inHome} = useContext(DataContext);
+
+  const showMenu = (event) => {
+    event.preventDefault();
+    if(menu === true){
+        setMenu(false);
+        setMenuText("menu")
+        inHome?
+        setColor("white"):setColor("black")
+    }else{
+      setMenu(true)
+      setMenuText("close")
+      setColor("white")
+    }
+    
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router className="router">
+      <div className='menuButton'><p className={menuText} style={{color: color}}>{menuText}</p><button onClick={showMenu}>{menu?<i className="fa-solid fa-circle-xmark" style={{color: color}}></i>:<i className="fa-solid fa-bars" style={{color: color}}></i>}</button></div>
+      <TransitionGroup>
+        {menu && (
+          <CSSTransition classNames="fade" timeout={300}>
+            <NavMenu/>
+          </CSSTransition>
+        )}
+      </TransitionGroup>
+      <Routes>
+        <Route exact path='/' element={
+          <Home/>
+        }/>
+        <Route exact path='/about' element={
+          <About/>
+          
+        }/>
+        <Route exact path='/asset-management' element={
+          <AssetManagement />
+        }/>
+        <Route exact path='/construction' element={
+          <Construction/>
+        }/>
+        <Route exact path='/rf-development' element={
+          <RFDevelopment/>
+        }/>
+        <Route exact path='/rs-investment' element={
+          <RealStateInvestment/>
+        }/>
+        <Route exact path='/financial' element={
+          <Financial/>
+        }/>
+
+      </Routes>
+        {
+          inHome?
+          <></>:<Footer/>
+        }
+    </Router>
   );
 }
 

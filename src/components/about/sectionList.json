@@ -1,0 +1,39 @@
+[
+  {
+    "tittle": "History Heritage Experience",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "history",
+    "animation": "right"
+  },
+  {
+    "tittle": "Values",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "values",
+    "animation": "left"
+  },
+  {
+    "tittle": "Investment philosophy",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "philosophy",
+    "animation": "right"
+  },
+  {
+    "tittle": "Case Examples",
+    "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "example",
+    "animation": "left",
+    "examples": [{"name": "example1", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna."},{"name": "example2", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna."},{"name": "example3", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna."}]
+  },
+  {
+    "tittle": "People",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "people",
+    "animation": "right"
+  },
+  {
+    "tittle": "Philantropy",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tempus lorem. Phasellus at accumsan magna. Etiam id neque eget eros pulvinar pretium. Praesent pharetra orci sed luctus interdum. Sed ac leo maximus, ultrices nibh eget, accumsan lorem. Nam convallis pellentesque orci, id ullamcorper nibh iaculis ac. Proin quis elit accumsan, suscipit diam eget, rutrum diam. Maecenas at tincidunt massa. Nunc aliquet, lacus a vulputate facilisis, diam orci convallis eros, sodales auctor neque metus id ex. In posuere finibus lorem eget interdum.",
+    "image": "philantropy",
+    "animation": "left"
+  }
+]

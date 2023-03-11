@@ -1,0 +1,320 @@
+.aboutContainer{
+  padding: 50px 200px 0 200px;
+  height: auto;
+  min-height: 100vh;
+}
+  
+
+.aboutContainer .header{
+  margin: 50px 100px 30px 100px;
+  justify-content: center;
+  position: relative;
+  width: 75px;
+}
+
+.aboutContainer .flexContainer{
+  margin: 0 350px 0 350px;
+} 
+
+.aboutContainer .header div{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  font-size: 2em;
+}
+
+.aboutContainer .mainHeader{
+  position: relative;
+}
+.aboutContainer .mainHeader h1{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 3em;
+}
+/*******************************/
+.aboutContainer .subContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.aboutContainer .subContainer div{
+  margin: auto;
+}
+
+.aboutContainer .left .subContainer {
+  text-align: left;
+  width: 600px;
+  font-size: 1.2em;
+}
+
+.aboutContainer .right .subContainer {
+  text-align: right;
+  max-width: 600px;
+  font-size: 1.2em;
+}
+
+.aboutContainer .subContainer div h1{
+  background: rgb(22,32,121);
+  background: linear-gradient(90deg, rgba(22,32,121,1) 0%, rgba(25,127,242,1) 100%);
+  padding: 10px 25px 10px 25px;
+  color: white;
+  font-weight: 300;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+
+} 
+
+.aboutContainer .visible{
+  display: flex;
+}
+.aboutContainer .left{
+  flex-flow: row-reverse;
+}
+/********images************/
+.aboutContainer .image{
+  min-height: 500px;
+  min-width:800px;
+  overflow: hidden;
+  margin: 20px;
+  background: rgb(179, 245, 238);
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+}
+
+
+/*********transitions***********/
+.left.hidden , .right.hidden {
+  opacity: 0; /*uses when in AnimatedOnScroll.js uses clases when the component is visible or not*/
+}
+.left.visible{
+  opacity: 1;
+  animation: showleft 2s ease;
+}
+
+@keyframes showleft {
+  from{
+    transform: translateX(-100%);
+    filter: opacity(0);
+  }
+  to{
+    transform: translateX(0);
+    filter: opacity(100%);
+  }
+}
+
+.right.visible{
+  opacity: 1;
+  animation: showright 2s ease;
+}
+
+
+@keyframes showright {
+  from{
+    transform: translateX(100%);
+    filter: opacity(0);
+  }
+  to{
+    transform: translateX(0);
+    filter: opacity(100%);
+  }
+}
+.subContainer div h1::before, .subContainer div p::before{
+  opacity: 0;
+}
+
+.down.visible{
+  opacity: 1;
+  animation: showUp 2s ease;
+}
+
+
+@keyframes showUp {
+  from{
+    transform: translateY(100%);
+    filter: opacity(0);
+  }
+  to{
+    transform: translateY(0);
+    filter: opacity(100%);
+  }
+}
+
+.fade.visible{
+  opacity: 1;
+  animation: fade 1s ease;
+}
+
+
+@keyframes fade {
+  from{
+    filter: opacity(0);
+  }
+  to{
+    filter: opacity(100%);
+  }
+}
+.subContainer div h1::before, .subContainer div p::before, .subContainer div .button:before{
+  opacity: 0;
+}
+
+
+/*********************/
+.visible .subContainer div h1{
+  animation: fadeup 0.5s ease;
+  animation-delay: 1.4s;
+  filter: opacity(0);
+  animation-fill-mode: forwards;
+}
+.visible .subContainer div p{
+  animation: fadeup 0.5s ease;
+  animation-delay: 1.6s;
+  filter: opacity(0);
+  animation-fill-mode: forwards;
+}
+
+.visible .subContainer div .button{
+  animation: fadeup 0.5s ease;
+  animation-delay: 1.8s;
+  filter: opacity(0);
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeup {
+  from{
+    filter: opacity(0);
+  }
+  to{
+    filter: opacity(1);
+  }
+}
+.visible .subContainer div h1:after, .visible .subContainer div p:after, .subContainer div .button:after{
+  filter: opacity(1);
+}
+
+/***************current section in Asset management********/
+
+.currentSection .subContainer div div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentSection .subContainer div .button{
+  padding-top: 20px;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  display: block;
+  text-align: center;
+}
+
+.subContainer div .button{
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.currentSection .subContainer div .button i{
+  font-size: 3em;
+  color: gray;
+  margin: auto;
+}
+.currentSection .subContainer div .button p{
+  text-align: left;
+  padding-top: 10px;
+}
+
+.currentSection .subContainer div .button button, .subContainer div .button button{
+  background: rgb(22,32,121);
+  background: linear-gradient(90deg, rgba(22,32,121,1) 0%, rgba(25,127,242,1) 100%);
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  padding: 5px 0 5px 0;
+  color: white;
+  scale: 1.2;
+}
+
+.currentSection .subContainer div .button button:hover, .subContainer div .button button:hover{
+  background: rgb(22,32,121);
+  background: linear-gradient(90deg, rgb(49, 97, 173) 0%, rgba(25,127,242,1) 100%);
+  scale: 1.3;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+}
+
+/*******************Finantial**************/
+.aboutContainer .tableContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  animation: fadeup 0.5s ease;
+  animation-delay: 1s;
+  filter: opacity(0);
+  animation-fill-mode: forwards;
+}
+
+.aboutContainer .tableContainer::after{
+  opacity: 0;
+}
+.aboutContainer .tableContainer table{
+  margin: auto;
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+.aboutContainer .tableContainer table th, .aboutContainer .tableContainer table td{
+  padding: 5px 10px 5px 10px;
+  border-bottom: 2px solid black;
+}
+.aboutContainer .tableContainer table th{
+  background-color: gray;
+  color: white;
+  font-weight: 500;
+}
+
+.aboutContainer .tableContainer table .total{
+  font-weight: bold;
+  color:rgb(49, 97, 173)
+}
+
+.aboutContainer .subContainer .button.PE{
+  animation: fadeup 0.5s ease;
+  animation-delay: 1.2s;
+  filter: opacity(0);
+  animation-fill-mode: forwards;
+  margin-top: 10px;
+}
+
+.graphContainer{
+  height: 50vh;
+  color: gray;
+}
+/*****************SVG**********/
+.currentSection .image-svg{
+  background: none;
+  margin-right: 20px;
+  padding-right: 0;
+}
+
+.currentSection .image-svg path{
+  fill: rgb(24, 90, 195);
+  stroke: white;
+  stroke-width: 2px;
+}
+.currentSection .image-svg .active-true{
+  fill: rgb(147, 12, 12);
+}
+.currentSection .image-svg .active-true:hover{
+  fill: rgb(178, 15, 15);
+  cursor: pointer;
+}
+
+.currentSection .image-svg span{
+  font-size: 1.4em;
+  font-weight: 200;
+}

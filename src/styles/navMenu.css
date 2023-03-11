@@ -1,0 +1,122 @@
+
+.menuContainer{
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: white;
+  position: absolute;
+  filter: opacity(90%);
+  z-index: 998;
+  animation: show 0.2s;
+  top: 0;
+}
+
+@keyframes show {
+  from{
+    filter: opacity(0);
+  }
+  to{
+    filter: opacity(75%);
+  }
+}
+
+.menuContainer .header, .menuContainer .flexContainer{
+  display: flex;
+  width:fit-content;
+}
+
+.menuButton{
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  right: 40px;
+  top: 40px;
+}
+
+.menuButton button{
+  background: none;
+  border: none;
+}
+.menuButton button i{
+  font-size: 2em;
+  margin-left: 10px;
+}
+.menuButton button i:hover{
+  scale: 1.25;
+}
+.menuButton p{
+  font-weight: bold;
+}
+.menuButton button .fa-circle-xmark, .close{
+  color: white;
+}
+
+/**************header*****************/
+.menuContainer .header img{
+  filter: contrast(0) brightness(200%);
+}
+
+.menuContainer .header{
+  margin: 100px 300px 30px 300px;
+  justify-content: center;
+  position: relative;
+}
+
+.menuContainer .flexContainer{
+  margin: 0 350px 0 350px;
+} 
+
+.menuContainer .header div{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  font-size: 2em;
+}
+
+/**************list**************/
+.menuContainer .flexContainer .container ol{
+  list-style: none;
+  font-weight:500;
+  color: gray;
+  font-size: 3em;
+}
+.menuContainer .flexContainer .container ol li .navlink{
+  text-decoration: none;
+  color: white;
+}
+.menuContainer .flexContainer .container ol li:hover{
+  color: white;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menuContainer .flexContainer .container ol li{
+  width: 500px;
+}
+.menuContainer .flexContainer .infoContainer{
+  width: 400px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+.menuContainer .flexContainer .infoContainer i{
+  margin-right: 30px;
+  padding-top: 5px;
+}
+.menuContainer .flexContainer .infoContainer div p{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.menuContainer .flexContainer .infoContainer > p, .menuContainer .flexContainer .infoContainer div i{
+  margin-left: 20px;
+}
+
+.menuContainer .flexContainer .infoContainer h5{
+  margin-bottom: 40px;
+}
+
+
+
+

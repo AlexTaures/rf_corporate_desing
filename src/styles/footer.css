@@ -1,0 +1,139 @@
+.footerContainer{
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+.footerContainer .top{
+  width: 100%;
+  height: 150px;
+  background: none;
+}
+
+/*********************Middle************/
+.footerContainer .middle{
+  width: 70%;
+  height: 150px;
+  margin: auto;
+  position: absolute;
+  left: 15%;
+  top:75px;
+  background: rgb(67, 93, 124);
+  border-radius: 20px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+}
+
+.footerContainer .middle p{
+  margin: auto;
+  font-size: 1.2em;
+}
+
+.footerContainer .middle i{
+  margin: auto;
+  font-size: 5em;
+}
+
+
+
+
+
+
+/************Bottom************/
+.footerContainer .bottom{
+  display: flex;
+  padding: 200px 15% 50px 15%;
+  background: rgb(25, 33, 54);
+  color: white;
+  justify-content: center;
+}
+.footerContainer .bottom div{
+  padding: 0 25px 0 25px  ;
+  border-left: white dashed 1px;
+  margin: 0 50px 0 50px;
+}
+
+.footerContainer .bottom img{
+  width: 5%;
+  height: 5%;
+  filter: contrast(0) brightness(200%);
+}
+
+.footerContainer .bottom .menu ol{
+  list-style: none;
+}
+
+.footerContainer .bottom .menu ol li .navlink{
+  color: white;
+  text-decoration: none;
+}
+
+.footerContainer .bottom .menu ol li{
+  width: 180px;
+  padding: 2px 10px 2px;
+  border-radius: 5px;
+}
+
+.footerContainer .bottom .menu ol li:hover{
+  background: rgb(255, 255, 255,0.7);
+}
+
+.footerContainer .bottom p{
+  max-width: 220px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.footerContainer .bottom .contactYou div{
+  display: flex;
+  border: none;
+  margin: 20px 0;
+}
+
+.footerContainer .bottom input{
+ padding: 5px 10px 5px 10px;
+ border-radius: 15px;
+ width: 300px;
+ text-align: center;
+ border: none;
+ font-style: italic;
+}
+
+
+.footerContainer .bottom button{
+  border-radius: 15px;
+  width: 75px;
+  color: white;
+  font-weight: 500;
+  background: rgb(67, 93, 124);
+  margin-left: 10px;
+  border: none;
+}
+
+.footerContainer .bottom button:hover{
+  scale: 1.1;
+}
+
+.footerContainer .follow{
+  display: flex;
+  padding: 0 15% 0 15%;
+  background: rgb(25, 33, 54);
+  color: white;
+  justify-content: center;
+}
+
+.footerContainer .follow i{
+  font-size: 1.5em;
+  margin: 0 20px 0 20px;
+}
+
+.footerContainer .follow p{
+  margin-right: 20px;
+}
+
+.footerContainer .follow .copyright{
+  margin-left: 50%;
+}
