@@ -79,12 +79,12 @@ const options ={
         <div>
           <div className="subContainer down visible">
               <div>
-                <h1>{data[0].tittle}</h1>
-                <p>{data[0].content}</p>
+                <h1 id='financial'>{data[0].tittle}</h1>
+                <p id='financial'>{data[0].content}</p>
               </div>
       </div>
       <div className="tableContainer down visible">
-          <table>
+          <table id='financialTable'>
           <thead>
             <tr>
               {

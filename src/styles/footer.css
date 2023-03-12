@@ -151,11 +151,26 @@
 @media screen and (max-width: 1200px) {
   .footerContainer .bottom{
     display: block;
+    position: relative;
+    padding-top: 15%;
   }
   .footerContainer .bottom .image img{
-    display: none;
+   width: 100%;
+  }
+  .footerContainer .bottom .image{
+    position: absolute;
+    top: 35%;
+    right: 7%;
+    width: 25%;
+    
   }
   .footerContainer .follow{
     display:block;
+  }
+  .footerContainer .middle{
+    z-index: 100;
+    font-size: 0.9em;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

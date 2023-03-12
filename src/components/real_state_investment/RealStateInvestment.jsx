@@ -55,7 +55,7 @@ export default function RealStateInvestment() {
         show["rf_properties"]?
         <div className={`currentSection left visible`}>
           <div className="subContainer">
-              <div>
+              <div id='rfprop'>
                 <div className="button" style={{height: "80px"}}><button style={{background: "gray"}}from='rf_properties' to='main' onClick={showComponent}>Go Back</button></div>
                 <h1>{list[1].tittle}</h1>
                 <p>{list[1].content}</p>
@@ -63,7 +63,7 @@ export default function RealStateInvestment() {
                 </div>
               </div>
           </div>
-            <div className="image" style={{height: "600px"}}>
+            <div className="image" style={{height: "600px"}} id='rfimage'>
             <div class="carousel aboutCarousel">
                   {
                     properties.map((exp, key) => (

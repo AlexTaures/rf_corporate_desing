@@ -47,7 +47,7 @@ export default function AssetManagement() {
                 </div>
               </div>
           </div>
-            <div className="image" style={{height: "600px"}}><img src="" alt={list[0].image} /></div>
+            <div id='assetImage' className="image"><img src={require('../../img/'+list[0].image+'.jpg')} alt={list[0].image} /></div>
         </div>:<></>
         }{
         show["corval"]?

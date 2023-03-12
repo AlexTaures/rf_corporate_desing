@@ -343,13 +343,31 @@
   font-weight: 200;
 }
 
+.currentSection .image-svg svg{
+  scale: 0.8;
+  position: absolute;
+  left: -150px;
+  top: -30px;
+}
 
+.currentSection .image-svg div{
+  height: 600px;
+  width: 800px;
+  box-sizing: border-box;
+  position: relative;
+}
 
 
 
 
 /*************media query***************/
 @media screen and (max-width: 1500px) {
+  .aboutContainer{
+    padding-left: 5%;
+    overflow: hidden;
+    width: 100%;
+  }
+
   .aboutContainer .visible{
     display: block;
   }
@@ -357,10 +375,10 @@
   .aboutContainer .visible .image{
     max-width: none;
     min-width: 0;
-    width: 550px;
+    width: 700px;
   }
   .aboutContainer .visible .image p{
-    width: 550px;
+    width: 700px;
   }
   .aboutContainer .visible .image img{
     width: 100%;
@@ -368,5 +386,73 @@
 
   .aboutContainer .visible *{
     width: 850px;
+  }
+  .aboutContainer .visible .subContainer div,.aboutContainer .visible .subContainer div h1, .aboutContainer .visible .subContainer div p{
+  width: 700px; 
+  padding-left: 12%;
+  }
+
+  .currentSection .image-svg div{
+  height: 500px;
+  width: 700px;
+}
+  .currentSection .image-svg svg{
+    left: -200px;
+    width: 200%;
+    scale: 0.7;
+  }
+
+  .currentSection .subContainer{
+    width: 550px;
+    margin-left: 10%;
+  }
+  .currentSection .subContainer div div{
+    display: block;
+  }
+
+  .aboutContainer .visible .subContainer div p,
+  .aboutContainer .visible .subContainer div div{
+    padding-left: 0;
+  }
+  .aboutContainer .visible .subContainer div i{
+    width: 100%;
+  }
+  #rfprop{
+    padding-left: 7%;
+  }
+  #rfimage{
+    margin-left: 7%;
+  }
+
+  #financial{
+    width: 700px;
+    margin-left: 5%;
+  }
+  #financialTable{
+  font-size: 0.7em;
+  margin-left: 0;
+  scale: 0.8;
+  position: absolute;
+  left: -40px;
+  top: 50px;
+  }
+
+  .button.PE{
+   position: absolute;
+  }
+
+  .graphContainer{
+    width: 800px;
+    margin-top: 50px;
+  }
+
+  .aboutContainer .tableContainer table th, .aboutContainer .tableContainer table td{
+    padding: 0;
+    width: fit-content;
+    border-right: 1px gray solid;
+  }
+
+  #assetImage{
+    margin-left: 7%;
   }
 }

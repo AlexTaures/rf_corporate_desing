@@ -131,4 +131,7 @@
   .menuContainer{
     height: 120vh;
   }
+  .menuContainer .header{
+    margin: 100px 145px;
+  }
 }

@@ -66,3 +66,14 @@
   top: 0;
   z-index: 500;
 }
+
+
+@media screen and (max-width: 1200px){
+
+  .HomeContainer .mainHeader{
+    left: 145px;
+    top: 100px;
+  }
+
+}
+
