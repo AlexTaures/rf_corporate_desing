@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes, Navigate} from "react-router-dom"
 import NavMenu from './components/NavMenu';
-import { useContext } from 'react';
+import { useContext, useRef, useEffect } from 'react';
 import {DataContext} from  "./context/Datacontext.js"
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import About from './components/about/About'
@@ -15,6 +15,7 @@ import Footer from './components/Footer';
 
 function App() {
   const {menu, setMenu, menuText, setMenuText, color, setColor, inHome} = useContext(DataContext);
+  const ref = useRef(null);
 
   const showMenu = (event) => {
     event.preventDefault();
@@ -30,10 +31,11 @@ function App() {
     }
     
   }
+
   
   return (
     
-    <Router className="router">
+    <Router className="router" ref={ref}>
       <div className='popoverMenu'>
         <div className='menuButton'><p className={menuText} style={{color: color}}>{menuText}</p><button onClick={showMenu}>{menu?<i className="fa-solid fa-circle-xmark" style={{color: color}}></i>:<i className="fa-solid fa-bars" style={{color: color}}></i>}</button></div>
         <TransitionGroup>

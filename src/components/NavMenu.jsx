@@ -8,6 +8,10 @@ import data from "./contactUsData.json"
 export default function NavMenu() {
   const {setMenu, setMenuText, setColor, setInHome} = useContext(DataContext);
   const navigate = useNavigate();
+
+  const handleScrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   
   const hide = (event) => {
     event.preventDefault();
@@ -15,8 +19,10 @@ export default function NavMenu() {
     setMenuText("menu");
     setColor("black");
     setInHome(false);
+    handleScrollTop();
   }
 
+  
   const goHome = (event) => {
     event.preventDefault();
     setMenu(false);
