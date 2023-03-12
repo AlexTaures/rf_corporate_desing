@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rf_corporate_desing/static/css/main.14c0e1db.css",
-    "main.js": "/rf_corporate_desing/static/js/main.b3c3f79c.js",
+    "main.js": "/rf_corporate_desing/static/js/main.cbc35421.js",
     "static/media/buildings.jpg": "/rf_corporate_desing/static/media/buildings.055352bdf14feb82c474.jpg",
     "static/media/city.jpg": "/rf_corporate_desing/static/media/city.f4f1763154d357b3123c.jpg",
     "static/media/whitebuildings.jpg": "/rf_corporate_desing/static/media/whitebuildings.010ca695d49dcd2d4d29.jpg",
@@ -22,10 +22,10 @@
     "static/media/RF_LOGO.png": "/rf_corporate_desing/static/media/RF_LOGO.7efc2cd266cb7d495cb1.png",
     "index.html": "/rf_corporate_desing/index.html",
     "main.14c0e1db.css.map": "/rf_corporate_desing/static/css/main.14c0e1db.css.map",
-    "main.b3c3f79c.js.map": "/rf_corporate_desing/static/js/main.b3c3f79c.js.map"
+    "main.cbc35421.js.map": "/rf_corporate_desing/static/js/main.cbc35421.js.map"
   },
   "entrypoints": [
     "static/css/main.14c0e1db.css",
-    "static/js/main.b3c3f79c.js"
+    "static/js/main.cbc35421.js"
   ]
 }
