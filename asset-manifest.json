@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/rf_corporate_desing/static/css/main.14c0e1db.css",
-    "main.js": "/rf_corporate_desing/static/js/main.cbc35421.js",
+    "main.css": "/rf_corporate_desing/static/css/main.6ca6f870.css",
+    "main.js": "/rf_corporate_desing/static/js/main.c6b84035.js",
     "static/media/buildings.jpg": "/rf_corporate_desing/static/media/buildings.055352bdf14feb82c474.jpg",
     "static/media/city.jpg": "/rf_corporate_desing/static/media/city.f4f1763154d357b3123c.jpg",
     "static/media/whitebuildings.jpg": "/rf_corporate_desing/static/media/whitebuildings.010ca695d49dcd2d4d29.jpg",
     "static/media/businesman.jpg": "/rf_corporate_desing/static/media/businesman.d9831e8ebe36cd37ed7e.jpg",
     "static/media/image4.jpg": "/rf_corporate_desing/static/media/image4.df173e9825b2919dad12.jpg",
+    "static/media/assetManagement.jpg": "/rf_corporate_desing/static/media/assetManagement.d5aea87be5cd6a47ab9f.jpg",
     "static/media/realState.jpg": "/rf_corporate_desing/static/media/realState.34733dfb86f78bf669d4.jpg",
     "static/media/businesman2.jpg": "/rf_corporate_desing/static/media/businesman2.74eb433f775784a073ca.jpg",
     "static/media/image3.jpg": "/rf_corporate_desing/static/media/image3.8d308fbc36a782fa869a.jpg",
@@ -21,11 +22,11 @@
     "static/media/values.jpg": "/rf_corporate_desing/static/media/values.a75fded6facfb450f88c.jpg",
     "static/media/RF_LOGO.png": "/rf_corporate_desing/static/media/RF_LOGO.7efc2cd266cb7d495cb1.png",
     "index.html": "/rf_corporate_desing/index.html",
-    "main.14c0e1db.css.map": "/rf_corporate_desing/static/css/main.14c0e1db.css.map",
-    "main.cbc35421.js.map": "/rf_corporate_desing/static/js/main.cbc35421.js.map"
+    "main.6ca6f870.css.map": "/rf_corporate_desing/static/css/main.6ca6f870.css.map",
+    "main.c6b84035.js.map": "/rf_corporate_desing/static/js/main.c6b84035.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c0e1db.css",
-    "static/js/main.cbc35421.js"
+    "static/css/main.6ca6f870.css",
+    "static/js/main.c6b84035.js"
   ]
 }
