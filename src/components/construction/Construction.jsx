@@ -32,7 +32,7 @@ export default function Construction() {
                 </div>
               </div>
             </div>
-            <div className="image"><img src="" alt={item.image}/></div>
+            <div className="image"><img src={require('../../img/construction/'+item.image+'.jpg')} alt={item.image}/></div>
           </AnimatedOnScroll>
           </div>
         ))

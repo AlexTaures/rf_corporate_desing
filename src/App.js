@@ -34,15 +34,17 @@ function App() {
   return (
     
     <Router className="router">
-      <div className='menuButton'><p className={menuText} style={{color: color}}>{menuText}</p><button onClick={showMenu}>{menu?<i className="fa-solid fa-circle-xmark" style={{color: color}}></i>:<i className="fa-solid fa-bars" style={{color: color}}></i>}</button></div>
-      <TransitionGroup>
-        {menu && (
-          <CSSTransition classNames="fade" timeout={300}>
-            <NavMenu/>
-          </CSSTransition>
-        )}
-      </TransitionGroup>
-      <Routes>
+      <div className='popoverMenu'>
+        <div className='menuButton'><p className={menuText} style={{color: color}}>{menuText}</p><button onClick={showMenu}>{menu?<i className="fa-solid fa-circle-xmark" style={{color: color}}></i>:<i className="fa-solid fa-bars" style={{color: color}}></i>}</button></div>
+        <TransitionGroup>
+          {menu && (
+            <CSSTransition classNames="fade" timeout={300}>
+              <NavMenu/>
+            </CSSTransition>
+          )}
+        </TransitionGroup>
+      </div>
+      <Routes className="routes">
         <Route exact path='/' element={
           <Home/>
         }/>

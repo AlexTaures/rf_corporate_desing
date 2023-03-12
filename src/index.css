@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body div div{
+  margin-top: 0;
+  padding-top: 0;
+}
   /*background: linear-gradient(-45deg, #ffffff, #acacac, #ffffff, #acacac);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;

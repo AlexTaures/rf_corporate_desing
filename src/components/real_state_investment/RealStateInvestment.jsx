@@ -1,14 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../../styles/about.css";
 import logo from "../../img/RF_LOGO.png"
-import list from "./sectionList.json"
+import list from "./sectionList.json";
+import properties from "./rfProperties.json";
 
 export default function RealStateInvestment() {
   const  [show, setShow] = useState({
     "main": true, "rf_properties": false
   })
+  const [activeIndex, setActiveIndex] = useState(0);
   let from = ""; let to = "";
-
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveIndex((activeIndex + 1) % properties.length);
+    }, 10000);
+    return () => clearInterval(timer);
+  }, [activeIndex]);
 
   const showComponent = (event) => {
     event.preventDefault();
@@ -41,7 +49,7 @@ export default function RealStateInvestment() {
                 </div>
               </div>
           </div>
-            <div className="image" style={{height: "600px"}}><img src="" alt={list[0].image} /></div>
+            <div className="image" style={{height: "600px"}}><img src={require('../../img/'+list[0].image+'.jpg')} alt={list[0].image} /></div>
         </div>:<></>
         }{
         show["rf_properties"]?
@@ -55,7 +63,18 @@ export default function RealStateInvestment() {
                 </div>
               </div>
           </div>
-            <div className="image" style={{height: "600px"}}><img src="" alt={list[1].image} /></div>
+            <div className="image" style={{height: "600px"}}>
+            <div class="carousel aboutCarousel">
+                  {
+                    properties.map((exp, key) => (
+                      <div className={activeIndex === key ? 'active' : ''}>
+                          <img src={require('../../img/caseExamples/'+exp.image+'.jpg')} alt={exp.image} />
+                          <p>{exp.name}</p>
+                      </div>
+                    ))
+                  }
+            </div>
+            </div>
         </div>:<></>}
     </div>
   )

@@ -1,16 +1,28 @@
 .router{
   position: relative;
 }
+.routes{
+  position: absolute;
+  top: 0;
+}
+
+
+.popoverMenu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 
 .menuButton{
-  position: sticky;
   z-index: 999;
   display: flex;
-  right: 40px;
-  top: 40px;
   align-items: center;
   justify-content: center;
   color: white;
+  margin-right: 20px;
+  margin-top: 0;
 }
 
 .menuButton button{
@@ -28,7 +40,8 @@
 }
 .menuButton p{
   font-weight: bold;
-  margin: auto;
+  margin-left: auto;
+  margin-top: 10px;
 }
 .menuButton button .fa-circle-xmark, .close{
   color: white;

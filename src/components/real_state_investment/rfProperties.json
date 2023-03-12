@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "name": "property A",
+    "image": "image1"
+  },
+  {
+    "id":2,
+    "name": "property B",
+    "image": "image2"
+  },
+  {
+    "id":3,
+    "name": "property C",
+    "image": "image3"
+  },
+  {
+    "id":4,
+    "name": "property D",
+    "image": "image4"
+  },
+  {
+    "id":5,
+    "name": "property E",
+    "image": "image5"
+  },
+  {
+    "id":6,
+    "name": "property F",
+    "image": "image6"
+  }
+]

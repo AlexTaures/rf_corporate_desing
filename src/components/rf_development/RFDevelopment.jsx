@@ -32,7 +32,7 @@ export default function RFDevelopment() {
                 </div>
               </div>
             </div>
-            <div className="image"><img src="" alt={item.image}/></div>
+            <div className="image"><img src={require('../../img/rf_development/'+item.image+'.jpg')} alt={item.image}/></div>
           </AnimatedOnScroll>
           </div>
         ))

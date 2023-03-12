@@ -34,7 +34,7 @@ export default function Footer() {
         <i className="fa-solid fa-building-user"></i>
       </div>
       <div className="bottom">
-        <img src={logo} alt="logo" />
+        <NavLink replace={true} onClick={goHome} className="image"><img src={logo} alt=""/></NavLink>
         <div className="menu">
           <h4>This site</h4>
         <ol>

@@ -9,6 +9,7 @@
   z-index: 998;
   animation: show 0.2s;
   top: 0;
+  overflow: hidden;
 }
 
 @keyframes show {

@@ -76,7 +76,7 @@ export default function AssetManagement() {
                 </div>
               </div>
           </div>
-            <div className="image" style={{height: "600px"}}><img src="" alt={list[2].image} /></div>
+            <div className="image" style={{height: "600px", textAlign: "center", background: "none", boxShadow: "none"}}><img src={logo} style={{width: "auto"}}/></div>
         </div>:<></>}
     </div>
   )
