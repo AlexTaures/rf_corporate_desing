@@ -50,6 +50,7 @@
   color: white;
   justify-content: center;
 }
+
 .footerContainer .bottom div{
   padding: 0 25px 0 25px  ;
   border-left: white dashed 1px;
@@ -145,4 +146,16 @@
 
 .footerContainer .follow .copyright{
   margin-left: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .footerContainer .bottom{
+    display: block;
+  }
+  .footerContainer .bottom .image img{
+    display: none;
+  }
+  .footerContainer .follow{
+    display:block;
+  }
 }

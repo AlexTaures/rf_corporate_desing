@@ -344,3 +344,29 @@
 }
 
 
+
+
+
+
+/*************media query***************/
+@media screen and (max-width: 1500px) {
+  .aboutContainer .visible{
+    display: block;
+  }
+
+  .aboutContainer .visible .image{
+    max-width: none;
+    min-width: 0;
+    width: 550px;
+  }
+  .aboutContainer .visible .image p{
+    width: 550px;
+  }
+  .aboutContainer .visible .image img{
+    width: 100%;
+  }
+
+  .aboutContainer .visible *{
+    width: 850px;
+  }
+}
