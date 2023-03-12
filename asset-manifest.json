@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rf_corporate_desing/static/css/main.14c0e1db.css",
+    "main.js": "/rf_corporate_desing/static/js/main.b3c3f79c.js",
+    "static/media/buildings.jpg": "/rf_corporate_desing/static/media/buildings.055352bdf14feb82c474.jpg",
+    "static/media/city.jpg": "/rf_corporate_desing/static/media/city.f4f1763154d357b3123c.jpg",
+    "static/media/whitebuildings.jpg": "/rf_corporate_desing/static/media/whitebuildings.010ca695d49dcd2d4d29.jpg",
+    "static/media/businesman.jpg": "/rf_corporate_desing/static/media/businesman.d9831e8ebe36cd37ed7e.jpg",
+    "static/media/image4.jpg": "/rf_corporate_desing/static/media/image4.df173e9825b2919dad12.jpg",
+    "static/media/realState.jpg": "/rf_corporate_desing/static/media/realState.34733dfb86f78bf669d4.jpg",
+    "static/media/businesman2.jpg": "/rf_corporate_desing/static/media/businesman2.74eb433f775784a073ca.jpg",
+    "static/media/image3.jpg": "/rf_corporate_desing/static/media/image3.8d308fbc36a782fa869a.jpg",
+    "static/media/history.jpg": "/rf_corporate_desing/static/media/history.4dded4ceeb66eddc0bc3.jpg",
+    "static/media/image6.jpg": "/rf_corporate_desing/static/media/image6.9639deb09ad98a193705.jpg",
+    "static/media/image2.jpg": "/rf_corporate_desing/static/media/image2.28dcf50157f54309d603.jpg",
+    "static/media/image1.jpg": "/rf_corporate_desing/static/media/image1.d9f065ff12181a29beb1.jpg",
+    "static/media/philantropy.jpg": "/rf_corporate_desing/static/media/philantropy.5ec951bd7166de62c55f.jpg",
+    "static/media/image5.jpg": "/rf_corporate_desing/static/media/image5.3c39b779852cb53dc93b.jpg",
+    "static/media/philosophy.jpg": "/rf_corporate_desing/static/media/philosophy.b9514b77352e979e994d.jpg",
+    "static/media/people.jpg": "/rf_corporate_desing/static/media/people.830a3717ef768e795a5f.jpg",
+    "static/media/values.jpg": "/rf_corporate_desing/static/media/values.a75fded6facfb450f88c.jpg",
+    "static/media/RF_LOGO.png": "/rf_corporate_desing/static/media/RF_LOGO.7efc2cd266cb7d495cb1.png",
+    "index.html": "/rf_corporate_desing/index.html",
+    "main.14c0e1db.css.map": "/rf_corporate_desing/static/css/main.14c0e1db.css.map",
+    "main.b3c3f79c.js.map": "/rf_corporate_desing/static/js/main.b3c3f79c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14c0e1db.css",
+    "static/js/main.b3c3f79c.js"
+  ]
+}
